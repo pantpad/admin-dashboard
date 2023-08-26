@@ -2,6 +2,7 @@
     --header-background: #ffffff;
     --side-background: #1992d4;
     --main-background: #e2e8f0;
+    --fs--small: 12.5px;
 }
 *{
     padding:0;
@@ -12,6 +13,11 @@
 
 body,html{
     height: 100%;
+}
+
+p{
+    font-size: var(--fs--small);
+    word-wrap: break-word;
 }
 
 .container{
@@ -51,7 +57,7 @@ section.main{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    gap: 15px;
+    gap: 10px;
     padding: 1em;
 }
 
@@ -65,7 +71,7 @@ section.main{
 
 .project-cards-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
     grid-auto-rows: minmax(200px,min-content);
     gap: 10px;
 }
@@ -79,24 +85,23 @@ section.main{
 
 .others{
     flex: 1;
+    min-width: 300px;
     min-height: 100%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
 }
 
 .announcements{
-    background-color: blue;
+    background-color: var(--main-background);
     flex:1;
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     padding: 1em 2em;
-    gap:15px;
+    gap:10px;
+    max-height: 500px;
 }
 
 .announcements-cards-container{
@@ -107,15 +112,22 @@ section.main{
     padding: 1.2em;
 }
 
+.announcements-cards-container span{
+    display: inline-block;
+    width: 100%;
+    border:0.5px solid var(--main-background);
+}
+
 .trending{
-    background-color: violet;
+    background-color: var(--main-background);
     flex: 1;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     padding: 1em 2em;
-    gap:15px;
+    gap:8px;
+    max-height: 500px;
 }
 
 /* section.ad{
