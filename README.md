@@ -16,7 +16,9 @@ In the header, use more grids to lay out the search bar, user info and buttons.
 For the main-content, use more grids to lay out the projects, announcements and trending items.
 Fill out some dummy content and placeholder images so you can position all of your grid items.
 
-Make the main-content container flex, so when scaling down the announcements and trending go to the bottom
+Make the main-content container flex, so when scaling down the announcements and trending go to the bottom.
+Working on the announcement and trending tab.
+    Make 2 flex rectangle. make them wrap as rows.
 
 ## Step 4: Gather assets
 Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.

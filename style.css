@@ -19,11 +19,6 @@ body,html{
     height: 100%;
 
     display: grid;
-    /* grid-template: 
-    "header header header" 1fr
-    "side main main" 1fr
-    "side ad ad" 1fr
-    "footer footer footer" 1fr / 1fr 1fr 2fr; */
     grid-template:
     "side header" 1fr
     "side main" 5fr / 1fr 5fr;
@@ -51,19 +46,13 @@ section.main{
 }
 
 .projects{
-    background-color: orange;
-    flex: 2;
-    height: 100%;
-    padding: 1em;
+    flex: 4;
+    min-height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr;
-    grid-auto-flow: row;
-    gap: 10px;
-}
-
-.projects h3{
-    grid-column: 1 / 3;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 15px;
+    padding: 1em;
 }
 
 .projects ul{
@@ -74,18 +63,59 @@ section.main{
     display: inline-block;
 }
 
+.project-cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-auto-rows: minmax(200px,min-content);
+    gap: 10px;
+}
+
 .project-card{
     background-color: white;
-    background: linear-gradient(to right, gold 3px, white 0);
+    background: linear-gradient(to right, gold 8px, white 0);
     padding:1em;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .others{
-    background-color: aquamarine;
     flex: 1;
-    height: 100%;
-    padding: 1em;
+    min-height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcements{
+    background-color: blue;
+    flex:1;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    padding: 1em 2em;
+    gap:15px;
+}
+
+.announcements-cards-container{
+    background-color: var(--header-background);
+    border-radius: 15px;
+    display: grid;
+    grid-auto-flow: row;
+    padding: 1.2em;
+}
+
+.trending{
+    background-color: violet;
+    flex: 1;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    padding: 1em 2em;
+    gap:15px;
 }
 
 /* section.ad{
