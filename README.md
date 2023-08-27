@@ -40,6 +40,19 @@ Working on the announcement and trending tab.
         Make second row of the header grid align
         Introduce FONT-AWESOME icons.
         Remove background
+    ASIDE
+        TODO GRID LAYOUT BLUEPRINT -> https://prnt.sc/BTc-DW5IbLKf
+        Wrap the grid inside a container max 600px height and width: 100%;
+        Create aside using grid. 1 column 3 rows of auto. autoflow row;
+        Each row will have 1 item of
+            "display:grid;"
+            2 columns (16px, 1fr)
+            auto-flow row.
+            align-content:center;
+                fill the grid using icon + h4
+        
+
+
 
 ## Step 4: Gather assets
 Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.

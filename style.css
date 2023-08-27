@@ -132,6 +132,74 @@ aside{
     grid-area: side;
 }
 
+aside .aside-grid{
+    border: 1px solid yellowgreen;
+    max-height: 600px;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    gap:2em;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    font-size: 1.5rem;
+}
+
+aside .aside-grid i{
+    transform: scale(0.8);
+}
+
+aside .aside-grid > *{
+    display: grid;
+    grid-template-columns: 16px 1fr;
+    grid-template-rows: 30px;
+    grid-auto-flow: row;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.dashboard-info i{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.dashboard-info i span::after{
+    background-color: var(--side-background);
+    width: 1%;
+    height: 100%;
+    z-index: 4;
+    content: "";
+    border: 1px solid var(--side-background);
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+.dashboard-info i::before{
+    background-color: var(--side-background);
+    width: 50%;
+    height: 1%;
+    z-index: 4;
+    content: "";
+    border: 1px solid var(--side-background);
+    position: absolute;
+    top: 25%;
+    right:-2px;
+}
+
+.dashboard-info i::after{
+    background-color: var(--side-background);
+    width: 50%;
+    height: 1%;
+    z-index: 4;
+    content: "";
+    border: 1px solid var(--side-background);
+    position: absolute;
+    top: 55%;
+    left:-2px;
+}
+
 section.main{
     background-color: var(--main-background);
     height: 100%;
