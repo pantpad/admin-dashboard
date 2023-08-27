@@ -132,7 +132,6 @@ aside{
 }
 
 aside .aside-grid{
-    border: 1px solid yellowgreen;
     max-height: 600px;
     width: 100%;
     display: grid;
@@ -313,7 +312,6 @@ section.main{
         "side" 1fr / 1fr;
     }
     aside .aside-grid{
-        border: 1px solid yellowgreen;
         display: grid;
         color: white;
         font-weight: bold;
