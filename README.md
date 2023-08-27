@@ -18,7 +18,18 @@ Fill out some dummy content and placeholder images so you can position all of yo
 
 Make the main-content container flex, so when scaling down the announcements and trending go to the bottom.
 Working on the announcement and trending tab.
-    Make 2 flex rectangle. make them wrap as rows.
+    Make 2 flex rectangle. make them wrap as rows. DONE
+    Create announcement and trending using grid! DONE
+    Make projects layout take as much space needed while costraining the rectangles to a lesser size. DONE
+    TOMORROW
+        work on the header + aside
+        lay everything decently
+        change font
+        add box shadows
+        make project card better
+        finish trending tab
+    HEADER
+        make same padding on left and right
 
 ## Step 4: Gather assets
 Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.

@@ -34,7 +34,29 @@ header{
     background-color: var(--header-background);
     height: 100%;
     grid-area: header;
+    padding: 1em 2em;
+    display: grid;
+    grid-template-columns: 4fr minmax(200px,1fr);
+    grid-auto-flow: row;
 }
+
+.searchbar{
+
+}
+
+.notification{
+
+}
+
+.account-info{
+
+}
+
+.dashboard-action{
+    
+}
+
+
 
 aside{
     background-color: var(--side-background);
