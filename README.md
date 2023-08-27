@@ -37,8 +37,9 @@ Working on the announcement and trending tab.
         Make header responsive after a certain amount DONE
         GRID LAYOUT BLUEPRINT: https://prnt.sc/rZSMgwiVIS28
         Improve header layout when responsive
-        Make second row of grid align
+        Make second row of the header grid align
         Introduce FONT-AWESOME icons.
+        Remove background
 
 ## Step 4: Gather assets
 Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
