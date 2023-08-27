@@ -42,15 +42,20 @@ Working on the announcement and trending tab.
         Remove background
     ASIDE
         TODO GRID LAYOUT BLUEPRINT -> https://prnt.sc/BTc-DW5IbLKf
-        Wrap the grid inside a container max 600px height and width: 100%;
-        Create aside using grid. 1 column 3 rows of auto. autoflow row;
-        Each row will have 1 item of
+        Wrap the grid inside a container max 600px height and width: 100%; DONE
+        Create aside using grid. 1 column 3 rows of auto. autoflow row; DONE
+        Each row will have 1 item of DONE
             "display:grid;"
             2 columns (16px, 1fr)
             auto-flow row.
             align-content:center;
                 fill the grid using icon + h4
-        
+        Create dashboard logo DONE
+        Replace all icons DONE
+        RESPONSIVENESS
+            make everything 1 grid only columns without the text but only with the icons displaying!
+    MAIN
+        Fix overflow at start page inside the projects tab.
 
 
 

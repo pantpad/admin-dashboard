@@ -154,7 +154,7 @@ aside .aside-grid > *{
     grid-template-columns: 16px 1fr;
     grid-template-rows: 30px;
     grid-auto-flow: row;
-    gap: 0.5em;
+    gap: 1em;
     align-items: center;
 }
 
