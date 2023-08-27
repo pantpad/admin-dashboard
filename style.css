@@ -201,7 +201,7 @@ section.main{
 } */
 
 
-@media (max-width: 620px) {
+@media (max-width: 39em) {
     header{
         grid-template-columns: 1fr;
     }
@@ -215,7 +215,7 @@ section.main{
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 29em) {
     .container{
         display: grid;
         grid-template: 
