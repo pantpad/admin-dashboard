@@ -2,8 +2,10 @@
     --header-background: #ffffff;
     --side-background: #1992d4;
     --main-background: #e2e8f0;
+    --main-yellow: #facc15;
     --fs--small: 12.5px;
 }
+
 *{
     padding:0;
     margin:0;
@@ -66,14 +68,30 @@ header{
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 15px;
-    align-items: center;
+    align-items: end;
+}
+
+.account-info .logo{
+    background-color: var(--main-yellow);
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    position: relative;
+}
+
+.account-info .logo img{
+    margin: 1em;
+    position: absolute;
+    inset: 0;
+    margin:auto;
+    width: 80%;
+    height: 80%;
 }
 
 .account-info .info{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    align-items: center;
-    gap: 5px;
+    align-items: end;
 }
 
 .dashboard-action{
@@ -82,7 +100,7 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     padding: 1em;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: end;
     gap: 15px;
 }
 
@@ -109,6 +127,7 @@ section.main{
     display: flex;
     flex-wrap: wrap;
     overflow: auto;
+    justify-content: center;
 }
 
 .projects{
@@ -138,7 +157,7 @@ section.main{
 
 .project-card{
     background-color: white;
-    background: linear-gradient(to right, gold 8px, white 0);
+    background: linear-gradient(to right, var(--main-yellow) 8px, white 0);
     padding:1em;
     border-radius: 8px;
 }
@@ -207,11 +226,11 @@ section.main{
     }
 
     .notification{
-        justify-content: center;
+        justify-items: center;
     }
 
     .notification .bell{
-        justify-self: stretch;
+        justify-self: auto;
     }
 }
 

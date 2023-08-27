@@ -33,7 +33,10 @@ Working on the announcement and trending tab.
         TRY making header just by using a single grid DONE
         Put facsimil items inside grid cells DONE
         Apply background for debugging purposes. DONE
-        Make all the items inside each grid cell align correctly  
+        Make all the items inside each grid cell align correctly DONE
+        Make header responsive after a certain amount DONE
+        GRID LAYOUT BLUEPRINT: https://prnt.sc/rZSMgwiVIS28
+        Change font for everything
 
 ## Step 4: Gather assets
 Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
