@@ -54,6 +54,8 @@ Working on the announcement and trending tab.
         Replace all icons DONE
         RESPONSIVENESS
             make everything 1 grid only columns without the text but only with the icons displaying!
+            Make h5 inside aside disappear with display: none; DONE
+            Create a single row and 3 columns of width auto;
     MAIN
         Fix overflow at start page inside the projects tab.
 

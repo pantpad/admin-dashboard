@@ -23,7 +23,6 @@ p{
 }
 
 .container{
-    border:3px solid orangered;
     height: 100%;
 
     display: grid;
@@ -231,7 +230,6 @@ section.main{
 .project-cards-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,auto));
-    grid-auto-rows: minmax(200px,min-content);
     gap: 10px;
 }
 
@@ -300,9 +298,40 @@ section.main{
 } */
 
 
-@media (max-width: 39em) {
+@media (max-width: 58em) {
     header{
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 39em) {
+    .container{
+        display: grid;
+        grid-template: 
+        "header" 2fr
+        "main" 5fr
+        "side" 1fr / 1fr;
+    }
+    aside .aside-grid{
+        border: 1px solid yellowgreen;
+        display: grid;
+        color: white;
+        font-weight: bold;
+        padding: 1em;
+        font-size: 1rem;
+        grid-auto-flow: column;
+        height: 100%;
+        gap:1px;
+    }
+
+    aside .aside-grid > *{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    aside .aside-grid h5{
+        display: none;
     }
 
     .notification{
@@ -312,15 +341,5 @@ section.main{
 
     .notification .bell{
         justify-self: auto;
-    }
-}
-
-@media (max-width: 29em) {
-    .container{
-        display: grid;
-        grid-template: 
-        "header" 2fr
-        "main" 5fr
-        "side" 1fr / 1fr;
     }
 }
