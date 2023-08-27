@@ -29,7 +29,11 @@ Working on the announcement and trending tab.
         make project card better
         finish trending tab
     HEADER
-        make same padding on left and right
+        make same padding on left and right DONE
+        TRY making header just by using a single grid DONE
+        Put facsimil items inside grid cells DONE
+        Apply background for debugging purposes. DONE
+        Make all the items inside each grid cell align correctly  
 
 ## Step 4: Gather assets
 Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
