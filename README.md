@@ -36,7 +36,9 @@ Working on the announcement and trending tab.
         Make all the items inside each grid cell align correctly DONE
         Make header responsive after a certain amount DONE
         GRID LAYOUT BLUEPRINT: https://prnt.sc/rZSMgwiVIS28
-        Change font for everything
+        Improve header layout when responsive
+        Make second row of grid align
+        Introduce FONT-AWESOME icons.
 
 ## Step 4: Gather assets
 Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
