@@ -201,6 +201,20 @@ section.main{
 } */
 
 
+@media (max-width: 620px) {
+    header{
+        grid-template-columns: 1fr;
+    }
+
+    .notification{
+        justify-content: center;
+    }
+
+    .notification .bell{
+        justify-self: stretch;
+    }
+}
+
 @media (max-width: 450px) {
     .container{
         display: grid;
