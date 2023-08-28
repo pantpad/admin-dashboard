@@ -258,18 +258,31 @@ section.main{
 }
 
 .announcements-container{
-    background-color: mediumaquamarine;
+    background-color: white;
     border: 1px solid transparent;
     border-radius: 6px;
     width: 90%;
     justify-self: center;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,min-content);
+    align-content: center;
 }
 
-.announcements-container:nth-child(even){
-    background-color: beige;
-    border: 1px solid black;
+.announcements-container p{
+    font-size: 10px;
 }
 
+.announcements-card{
+    background-color: white;
+    padding:8px;
+}
+
+.announcements-card:nth-child(even){
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
 
 
 /* section.ad{
