@@ -240,9 +240,9 @@ section.main{
 }
 .main-grid h4{
     margin-left:1em;
+    align-self:end;
 }
 .others{
-    padding: 1em;
     padding-top: 5px;
     gap:5px;
     display: grid;
@@ -276,14 +276,19 @@ section.main{
 
 .announcements-card{
     background-color: white;
-    padding:8px;
+    margin-bottom:10px;
 }
 
 .announcements-card:nth-child(even){
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
+.trending{
+    margin-top:10px;
+}
 
 /* section.ad{
     background-color: white;
