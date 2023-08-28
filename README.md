@@ -70,7 +70,13 @@ Working on the announcement and trending tab.
     RECREATE THE WHOLE MAIN SECTION USING GRID
         give main the correct padding
         create first grid https://prnt.sc/49NrOKwS2TY4 DONE
-        try to make the first grid responsive   
+        try to make the first grid responsive DONE
+        Make the project grid same height as the others when resized DONE
+            the don't occupy all the height space. -> change to be made inside media query
+        Try to put headers where needed ALMOST done
+            rethink the layout? wrap the inner grids inside a div and add an heading
+            Last title is missing but I can use the same technique when creatin the innermost grids
+        Create the inner grid of projects DONE
         
 
 
