@@ -207,90 +207,27 @@ section.main{
     background-color: var(--main-background);
     height: 100%;
     grid-area:main;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: auto;
-    justify-content: center;
-}
-
-.projects{
-    flex: 4;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    gap: 10px;
     padding: 1em;
-    align-items: start;
+    padding-bottom: 5em;
+    border: 1px solid black;
 }
 
-.projects ul{
-    list-style: none;
-}
-
-.projects ul li{
-    display: inline-block;
-}
-
-.project-cards-container{
+.main-grid{
+    border:1px solid yellow;
+    height: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
-    grid-auto-rows: minmax(150px,1fr);
-    gap: 20px;
+    grid-template-columns: 4fr 1fr;
+    grid-auto-flow: column;
 }
 
-.project-card{
-    background-color: white;
-    background: linear-gradient(to right, var(--main-yellow) 8px, white 0);
-    padding:1em;
-    border-radius: 8px;
+.main-grid .projects{
+    background-color: #1992d4;
+    padding: 1em;
 }
 
-.others{
-    flex: 1;
-    min-width: 300px;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.announcements{
-    background-color: var(--main-background);
-    flex:1;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    padding: 1em 2em;
-    gap:10px;
-    max-height:300px;
-}
-
-.announcements-cards-container{
-    background-color: var(--header-background);
-    border-radius: 15px;
-    display: grid;
-    grid-auto-flow: row;
-    padding: 1.2em;
-}
-
-.announcements-cards-container span{
-    display: inline-block;
-    width: 100%;
-    border:0.5px solid var(--main-background);
-}
-
-.trending{
-    background-color: var(--main-background);
-    flex: 1;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    padding: 1em 2em;
-    gap:8px;
-    max-height: 300px;
+.main-grid .others{
+    background-color: green;
+    padding: 1em;
 }
 
 /* section.ad{

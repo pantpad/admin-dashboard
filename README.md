@@ -66,6 +66,11 @@ Working on the announcement and trending tab.
         Change text inside announcemenents and trending
 
     REMEMBER ALWAYS CHANGE FONT SIZE AND FAMILT AT THE START OF THE PROJECT!
+
+    RECREATE THE WHOLE MAIN SECTION USING GRID
+        give main the correct padding
+        create first grid https://prnt.sc/49NrOKwS2TY4 DONE
+        try to make the first grid responsive   
         
 
 
