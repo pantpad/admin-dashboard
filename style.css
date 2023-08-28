@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 :root{
     --header-background: #ffffff;
     --side-background: #1992d4;
     --main-background: #e2e8f0;
     --main-yellow: #facc15;
     --fs--small: 12.5px;
+    --fs--big: 2rem;
 }
 
 *{
@@ -15,6 +19,7 @@
 
 body,html{
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 p{
@@ -210,12 +215,12 @@ section.main{
 
 .projects{
     flex: 4;
-    min-height: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     gap: 10px;
     padding: 1em;
+    align-items: start;
 }
 
 .projects ul{
@@ -229,7 +234,8 @@ section.main{
 .project-cards-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,auto));
-    gap: 10px;
+    grid-auto-rows: minmax(150px,1fr);
+    gap: 20px;
 }
 
 .project-card{
@@ -252,12 +258,13 @@ section.main{
 .announcements{
     background-color: var(--main-background);
     flex:1;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     padding: 1em 2em;
     gap:10px;
-    max-height: 500px;
+    max-height:300px;
 }
 
 .announcements-cards-container{
@@ -283,7 +290,7 @@ section.main{
     grid-template-rows: auto 1fr;
     padding: 1em 2em;
     gap:8px;
-    max-height: 500px;
+    max-height: 300px;
 }
 
 /* section.ad{

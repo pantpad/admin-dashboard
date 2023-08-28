@@ -58,6 +58,15 @@ Working on the announcement and trending tab.
             Create a single row and 3 columns of width auto;
     MAIN
         Fix overflow at start page inside the projects tab. DONE
+        Style each project card correctly   
+        Add text box shadow where needed
+        Fix mistakes that arise
+
+    OTHERS
+        Change text inside announcemenents and trending
+
+    REMEMBER ALWAYS CHANGE FONT SIZE AND FAMILT AT THE START OF THE PROJECT!
+        
 
 
 
