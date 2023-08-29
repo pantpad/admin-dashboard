@@ -130,7 +130,13 @@ header{
     gap: 15px;
 }
 
-.dashboard-action button{
+.dashboard-action a{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-action .button{
     border-radius: 2em;
     background-color: var(--side-background);
     color: var(--header-background);
@@ -222,7 +228,6 @@ section.main{
 }
 
 .main-grid{
-    border: 1px solid yellow;
     height: 100%;
     display: grid;
     grid-template-columns: 4fr minmax(230px,1fr);
@@ -238,7 +243,6 @@ section.main{
     padding-top: 5px;
     display: grid;
     overflow: auto;
-    background-color: #1992d4;
     grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
     gap: 20px;
 }
@@ -288,7 +292,6 @@ section.main{
     gap:5px;
     display: grid;
     overflow: auto;
-    background-color: gold;
     height: calc(100% - 1.25rem);
 }
 
