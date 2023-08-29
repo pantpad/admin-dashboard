@@ -6,6 +6,7 @@
     --side-background: #1992d4;
     --main-background: #e2e8f0;
     --main-yellow: #facc15;
+    --icon-color: #333;
     --fs--small: 12.5px;
     --fs--big: 2rem;
 }
@@ -30,6 +31,11 @@ body{
 p{
     font-size: var(--fs--small);
     word-wrap: break-word;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .container{
@@ -106,8 +112,8 @@ header{
     position: absolute;
     inset: 0;
     margin:auto;
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
 }
 
 .account-info .info{
@@ -234,14 +240,50 @@ section.main{
     display: grid;
     overflow: auto;
     background-color: #1992d4;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
-    gap: 15px;
-    height: calc(100% - 1.25rem);
+    grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+    gap: 20px;
 }
+
 .main-grid h4{
     margin-left:1em;
     align-self:end;
 }
+
+.card{
+    background: linear-gradient(to right, var(--main-yellow) 10px, white 0);
+    border-radius: 8px;
+    height: 200px;
+    box-shadow: 1px 1px 4px -3px;
+    position: relative;
+    padding: 1em 2em;
+}
+
+.card-text{
+    width: 40ch;
+}
+
+.card-text h5{
+    font-size: clamp(1rem, 2vw - 1rem, 1.25rem);
+    margin-top: 10px;
+    margin-bottom:2px;
+}
+
+.card-text p{
+    font-size: clamp(0.65rem, 2vw, 1.1rem);
+    color: #888;
+}
+
+.card-icons{
+    position: absolute;
+    font-size: 1.2rem;
+    right: 2em;
+    bottom: 1.5em;
+    color: var(--icon-color);
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2em;
+}
+
 .others{
     padding-top: 5px;
     gap:5px;
